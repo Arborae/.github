@@ -1,0 +1,79 @@
+name: 🐛 Bug report
+description: Segnala un problema riproducibile
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione! Compila i campi sotto: più dettagli = fix più veloce.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versione / Commit
+      description: Indica versione, tag o SHA commit
+      placeholder: "v0.8.1 / 256e054"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - UI
+        - Backend/API
+        - Docker/Deploy
+        - Docs
+        - Altro
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione
+      description: Cosa non funziona?
+      placeholder: "Quando faccio ..., mi aspetto ..., invece ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passi per riprodurre
+      description: Elenca i passaggi in modo chiaro
+      placeholder: |
+        1) ...
+        2) ...
+        3) ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Risultato atteso
+      placeholder: "Dovrebbe succedere..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log / Screenshot
+      description: Incolla log rilevanti (rimuovi token e dati sensibili)
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Ho cercato issue simili già aperte
+          required: true
+        - label: Ho rimosso credenziali/token dai log
+          required: true

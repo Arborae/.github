@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions (domande / idee / supporto)
+    url: https://github.com/orgs/arborae/discussions
+    about: Per domande, proposte e supporto generale. Le issue restano per bug/feature tracciabili.

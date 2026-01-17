@@ -1,0 +1,44 @@
+name: ✨ Feature request
+description: Proponi una nuova funzionalità o miglioramento
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Idee ben spiegate = implementazioni più veloci. Grazie!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema / bisogno
+      placeholder: "Sto cercando di ..., ma ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Soluzione proposta
+      placeholder: "Vorrei che ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative considerate
+      placeholder: "Ho pensato anche a ..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impatto
+      options:
+        - Piccolo (nice-to-have)
+        - Medio
+        - Alto (blocca un flusso)
+    validations:
+      required: true
