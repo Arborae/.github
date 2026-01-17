@@ -35,7 +35,7 @@ Costruiamo software **pulito, modulare e affidabile** — con un’ossessione sa
 ### d2ha — Docker to Home Assistant
 Integrazione e controllo dei container Docker dentro Home Assistant: discovery, sensori, azioni, update e monitoraggio.
 
-➡️ Repo: [https://github.com/arborae/d2ha](https://github.com/Arborae/docker2homeassistant)
+➡️ Repo: https://github.com/Arborae/docker2homeassistant
 
 ### ha-appliance (in sviluppo)
 Appliance/stack modulare per semplificare deploy, wizard, App Store e gestione container in modo user-friendly.
