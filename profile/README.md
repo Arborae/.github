@@ -4,10 +4,15 @@ This README appears on https://github.com/arborae
 -->
 
 <div align="center">
+  
+<img src="https://raw.githubusercontent.com/arborae/.github/main/profile/logo.svg" width="300" alt="Arborae Logo"/>
 
-# 🌿 Arborae
+<br/><br/>
 
-Costruiamo software **pulito, modulare e affidabile** — con un’ossessione sana per UI curate, automazioni intelligenti e DevOps semplici.
+<p>
+  Costruiamo software <b>pulito, modulare e affidabile</b> — con un’ossessione sana per UI curate,
+  automazioni intelligenti e DevOps semplici.
+</p>
 
 <br/>
 
@@ -23,12 +28,12 @@ Costruiamo software **pulito, modulare e affidabile** — con un’ossessione sa
 
 <br/><br/>
 
-**Missione:** creare progetti open-source utili, belli da usare e facili da mantenere.  
-**Stile:** pragmatico, documentato, “ship & polish”.
+<b>Missione:</b> creare progetti open-source utili, belli da usare e facili da mantenere.<br/>
+<b>Stile:</b> pragmatico, documentato, “ship &amp; polish”.
 
 </div>
 
----
+<hr/>
 
 ## ⭐ Progetti in evidenza
 
