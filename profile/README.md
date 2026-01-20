@@ -14,6 +14,10 @@ This README appears on https://github.com/arborae
   automazioni intelligenti e DevOps semplici.
 </p>
 
+<p>
+  <i>Pragmatici. Documentati. Ship &amp; polish.</i>
+</p>
+
 <br/>
 
 <a href="https://github.com/arborae?tab=repositories">
@@ -28,8 +32,7 @@ This README appears on https://github.com/arborae
 
 <br/><br/>
 
-<b>Missione:</b> creare progetti open-source utili, belli da usare e facili da mantenere.<br/>
-<b>Stile:</b> pragmatico, documentato, “ship &amp; polish”.
+<img src="https://raw.githubusercontent.com/arborae/.github/main/branding/banner.svg" width="860" alt="Arborae Banner"/>
 
 </div>
 
