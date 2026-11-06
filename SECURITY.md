@@ -1,11 +1,16 @@
 # Security Policy
 
 ## Supported Versions
-Le versioni supportate sono indicate nei singoli repository (release/tag).
+
+Supported versions are listed in each repository (releases/tags). In general, only the latest release receives security fixes.
 
 ## Reporting a Vulnerability
-Per segnalazioni di sicurezza:
-- Evita di aprire issue pubbliche.
-- Invia i dettagli in modo privato ai maintainer (canale indicato nel repo o via contatto GitHub).
 
-Grazie per la segnalazione responsabile.
+Please **do not open public issues** for security reports.
+
+- Open a **private security advisory** in the affected repository (**Security → Advisories → Report a vulnerability**), or
+- contact the maintainers privately through GitHub.
+
+Include as much detail as you can: affected version, steps to reproduce, and potential impact. We aim to acknowledge reports within a few days and to coordinate disclosure with you.
+
+Thanks for helping us keep Arborae projects safe 🌱
