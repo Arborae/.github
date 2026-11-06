@@ -1,18 +1,21 @@
 # Arborae — Roadmap
 
-Roadmap ad alto livello (organizzazione). Le roadmap specifiche dei progetti vivono nei rispettivi repo.
+High-level roadmap (organization). Project-specific roadmaps live in their own repos.
 
 ## Q1 / Next
-- Miglioramento onboarding e UX (wizard, setup, docs)
-- CI/CD più solido (lint, test, release automation)
-- Branding consistente (banner, template README, badges)
+
+- Better onboarding and UX (wizards, setup, docs)
+- Stronger CI/CD (lint, tests, release automation)
+- Consistent branding (banners, README templates, badges)
 
 ## Q2 / Soon
-- Template repository Arborae (standardizzazione)
-- Reusable workflows (Actions) e policy di sicurezza comuni
-- Miglioramento discoverability (GitHub Pages + docs)
+
+- Arborae template repository (standardization)
+- Reusable workflows (Actions) and shared security policies
+- Better discoverability (GitHub Pages + docs)
 
 ## Always
-- Pulizia e modularità
-- Documentazione aggiornata
-- “Ship & polish”
+
+- Clean and modular
+- Up-to-date documentation
+- "Ship & polish"
