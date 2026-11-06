@@ -8,34 +8,64 @@
       <stop offset="0" stop-color="#34d399"/>
       <stop offset="1" stop-color="#5fb3a6"/>
     </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00b585" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#00b585" stop-opacity="0"/>
+    </radialGradient>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feGaussianBlur stdDeviation="14" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
     </pattern>
   </defs>
 
+  <!-- background -->
   <rect width="1400" height="420" fill="url(#bg)"/>
   <rect width="1400" height="420" fill="url(#grid)"/>
 
-  <path d="M-40 330 C 260 250, 420 460, 760 320 C 1040 206, 1180 250, 1440 140"
-        stroke="url(#acc)" stroke-width="10" fill="none" opacity="0.65" filter="url(#glow)"/>
+  <!-- accent wave -->
+  <path d="M-40 340 C 260 260, 430 470, 770 330 C 1040 216, 1180 260, 1440 150"
+        stroke="url(#acc)" stroke-width="8" fill="none" opacity="0.45" filter="url(#glow)"/>
 
-  <circle cx="220" cy="120" r="90" fill="url(#acc)" opacity="0.12"/>
-  <circle cx="1180" cy="290" r="120" fill="url(#acc)" opacity="0.1"/>
+  <!-- ===== right: Arborae mark, drawn large ===== -->
+  <g>
+    <circle cx="1180" cy="205" r="190" fill="url(#halo)"/>
+    <circle cx="1180" cy="205" r="132" fill="none" stroke="url(#acc)" stroke-width="2" opacity="0.55"/>
+    <circle cx="1180" cy="205" r="92" fill="url(#acc)"/>
+    <!-- tree / network mark (from the Arborae logo) -->
+    <g stroke="#ffffff" stroke-width="8" stroke-linecap="round">
+      <line x1="1181" y1="162" x2="1181" y2="245"/>
+      <line x1="1127" y1="219" x2="1181" y2="245"/>
+      <line x1="1235" y1="219" x2="1181" y2="245"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="1181" cy="162" r="9"/>
+      <circle cx="1127" cy="219" r="9"/>
+      <circle cx="1235" cy="219" r="9"/>
+    </g>
+    <!-- trunk -->
+    <rect x="1173" y="251" width="16" height="66" rx="8" fill="#4f4f4f"/>
+  </g>
 
-  <text x="90" y="165" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial"
-        font-size="56" fill="#eef4f2" font-weight="700">Arborae</text>
-  <text x="90" y="220" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial"
-        font-size="26" fill="#9db3ad" opacity="0.95">Software pulito • UI curate • Automazioni intelligenti • DevOps semplici</text>
+  <!-- ===== left: text block ===== -->
+  <text x="90" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="21" letter-spacing="4" fill="#34d399">// OPEN-SOURCE ORGANIZATION</text>
 
-  <text x="90" y="285" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace"
-        font-size="18" fill="#64756f" opacity="0.95">arborae.github.io — Pragmatici. Documentati. Ship &amp; polish.</text>
+  <text x="86" y="182" font-family="'Space Grotesk', Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="78" font-weight="700" fill="#eef4f2">Clean, modular,</text>
+  <text x="86" y="266" font-family="'Space Grotesk', Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="78" font-weight="700" fill="url(#acc)">reliable software.</text>
 
-  <rect x="90" y="308" width="260" height="8" rx="4" fill="url(#acc)" opacity="0.9"/>
+  <text x="90" y="322" font-family="Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="27" fill="#9db3ad">Useful projects, polished UIs, smart automation and simple DevOps.</text>
+
+  <text x="90" y="368" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="20" fill="#64756f">arborae.github.io — Pragmatic · Documented · Ship &amp; polish.</text>
+
+  <rect x="90" y="384" width="140" height="6" rx="3" fill="url(#acc)"/>
 </svg>
