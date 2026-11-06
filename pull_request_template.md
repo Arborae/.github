@@ -1,18 +1,18 @@
-## Cosa cambia
-<!-- Spiega cosa fa la PR in 2-4 righe. -->
+## What changes
+<!-- Explain what the PR does in 2-4 lines. -->
 
-## Perché
-<!-- Motivazione: bug / feature / refactor. Linka issue/discussion se esiste. -->
+## Why
+<!-- Motivation: bug / feature / refactor. Link an issue/discussion if one exists. -->
 
-## Come testare
-<!-- Passi rapidi per test manuale o comando di test -->
-- [ ] Ho testato localmente
-- [ ] Ho aggiornato la documentazione (se necessario)
+## How to test
+<!-- Quick steps for manual testing or a test command -->
+- [ ] I tested locally
+- [ ] I updated the documentation (if needed)
 
 ## Checklist
-- [ ] PR piccola e focalizzata (o spiegata se grande)
-- [ ] Niente credenziali o token nel codice/log
-- [ ] Lint/Test passano
+- [ ] Small, focused PR (or explained if large)
+- [ ] No credentials or tokens in code/logs
+- [ ] Lint/Tests pass
 
-## Screenshot / Video (se UI)
-<!-- Allegali qui -->
+## Screenshots / Video (if UI)
+<!-- Attach them here -->
