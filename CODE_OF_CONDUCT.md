@@ -1,11 +1,13 @@
 # Code of Conduct
 
-In Arborae vogliamo un ambiente rispettoso e collaborativo.
+At Arborae we want a respectful and collaborative environment.
 
-## Aspettative
-- Rispetto reciproco
-- Feedback costruttivo
-- Zero molestie o discriminazioni
+## Expectations
 
-## Applicazione
-Se noti comportamenti problematici, apri una Discussion privata (se disponibile) o segnala ai maintainer.
+- Mutual respect
+- Constructive feedback
+- Zero harassment or discrimination
+
+## Enforcement
+
+If you notice problematic behavior, open a private Discussion (if available) or report it to the maintainers.
