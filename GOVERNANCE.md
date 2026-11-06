@@ -1,23 +1,23 @@
 # Governance (Arborae)
 
-Questo documento descrive in modo semplice come prendiamo decisioni e gestiamo i progetti.
+This document describes, in simple terms, how we make decisions and manage projects.
 
-## Ruoli
+## Roles
 
-- **Maintainers**: gestiscono roadmap, review, release e moderazione
-- **Contributors**: propongono e realizzano miglioramenti tramite PR
-- **Community**: usa Discussions/Issues per feedback e richieste
+- **Maintainers**: manage roadmap, reviews, releases and moderation
+- **Contributors**: propose and build improvements through PRs
+- **Community**: uses Discussions/Issues for feedback and requests
 
-## Decisioni
+## Decisions
 
-- Le decisioni tecniche passano da **Discussions** (quando impattano architettura/UX)
-- PR reviewate almeno da 1 maintainer (o 2 per cambiamenti critici)
-- Priorità guidata da: utilità reale, stabilità, manutenzione, sicurezza
+- Technical decisions go through **Discussions** (when they impact architecture/UX)
+- PRs reviewed by at least 1 maintainer (2 for critical changes)
+- Priorities driven by: real usefulness, stability, maintainability, security
 
 ## Roadmap
 
-La roadmap è pubblica e vive in `ROADMAP.md` o nelle Discussions pinned per progetto.
+The roadmap is public and lives in `ROADMAP.md` or in pinned Discussions for each project.
 
-## Moderazione
+## Moderation
 
-Applichiamo il `CODE_OF_CONDUCT.md` per mantenere uno spazio rispettoso e produttivo.
+We enforce the `CODE_OF_CONDUCT.md` to keep a respectful and productive space.
