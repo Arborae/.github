@@ -5,37 +5,20 @@ This README appears on https://github.com/arborae
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arborae/.github/main/profile/logo.svg" width="220" alt="Arborae Logo"/>
+<a href="https://arborae.github.io">
+  <img src="https://raw.githubusercontent.com/arborae/.github/main/branding/banner.svg" width="860" alt="Arborae — Clean, modular, reliable software"/>
+</a>
 
 <br/><br/>
 
-<p>
-  🇮🇹 Costruiamo software <b>pulito, modulare e affidabile</b> — con un'ossessione sana per UI curate, automazioni intelligenti e DevOps semplici.
-</p>
-<p>
-  🇬🇧 We build <b>clean, modular, reliable</b> software — with a healthy obsession for polished UIs, smart automation and simple DevOps.
-</p>
-
-<p>
-  <i>Pragmatici · Documentati · Ship &amp; polish</i>
-</p>
-
-<br/>
-
 <a href="https://arborae.github.io">
-  <img alt="Website" src="https://img.shields.io/badge/🌐_Sito-arborae.github.io-00b585?style=for-the-badge&labelColor=070b0a">
+  <img alt="Website" src="https://img.shields.io/badge/🌐_Website-arborae.github.io-00b585?style=for-the-badge&labelColor=070b0a">
 </a>
 <a href="https://github.com/orgs/arborae/discussions">
   <img alt="Discussions" src="https://img.shields.io/badge/Discussions-Join-5fb3a6?style=for-the-badge&labelColor=070b0a">
 </a>
 <a href="https://github.com/arborae/.github/blob/main/SECURITY.md">
   <img alt="Security" src="https://img.shields.io/badge/Security-Policy-9db3ad?style=for-the-badge&labelColor=070b0a">
-</a>
-
-<br/><br/>
-
-<a href="https://arborae.github.io">
-  <img src="https://raw.githubusercontent.com/arborae/.github/main/branding/banner.svg" width="860" alt="Arborae Banner"/>
 </a>
 
 <br/><br/>
@@ -53,8 +36,7 @@ This README appears on https://github.com/arborae
 
 <br/><br/>
 
-<!-- org / flagship activity -->
-<img alt="Public repos" src="https://img.shields.io/badge/public%20repos-4-1f6feb?style=flat-square&logo=github&logoColor=white">
+<!-- flagship activity -->
 <img alt="d2ha stars" src="https://img.shields.io/github/stars/arborae/docker2homeassistant?style=flat-square&logo=github&label=d2ha%20stars">
 <img alt="d2ha last commit" src="https://img.shields.io/github/last-commit/arborae/docker2homeassistant?style=flat-square&label=d2ha%20last%20commit">
 <img alt="License" src="https://img.shields.io/github/license/arborae/docker2homeassistant?style=flat-square">
@@ -63,40 +45,42 @@ This README appears on https://github.com/arborae
 
 <hr/>
 
-## ⭐ Progetti in evidenza · Featured projects
+## ⭐ Featured projects
 
 ### 🐳 d2ha — Docker to Home Assistant
-🇮🇹 Monitoraggio e controllo dei container Docker con web UI moderna e MQTT autodiscovery per Home Assistant.
-🇬🇧 Monitor and control Docker containers with a modern web UI and MQTT autodiscovery for Home Assistant.
 
-→ [Sito &amp; docs](https://arborae.github.io/docker2homeassistant/) · [Repository](https://github.com/arborae/docker2homeassistant)
+Know when your containers have updates, read what changed, update them safely and read their logs — in a small web app and in Home Assistant, with native update entities via HACS.
 
-### 🧩 ha-appliance *(in sviluppo · work in progress)*
-🇮🇹 Appliance/stack modulare per semplificare deploy, wizard, App Store e gestione container in modo user-friendly.
-🇬🇧 Modular appliance/stack that simplifies deploys, wizards, an App Store and container management — the friendly way.
+→ [Docs &amp; demo](https://arborae.github.io/docker2homeassistant/) · [Repository](https://github.com/arborae/docker2homeassistant)
 
-→ [Repository](https://github.com/arborae/ha-appliance)
+### ✋ ESP32-S3 CAM — Gesture recognition
 
----
+Hand and pinch gesture recognition on an ESP32-S3 camera: Arduino firmware plus a Dockerized Flask server with MediaPipe, MJPEG overlay and MQTT autodiscovery for Home Assistant.
 
-## 🧭 Principi · Principles
-
-| | 🇮🇹 | 🇬🇧 |
-|:--|:--|:--|
-| **01** | Documentazione prima di tutto — se non è spiegato bene, non è finito | Docs first — if it isn't well explained, it isn't done |
-| **02** | Modularità e manutenzione > "hack veloce" | Modularity & maintainability > "quick hack" |
-| **03** | UX chiara — se qualcosa confonde, è un bug | Clear UX — if something is confusing, it's a bug |
-| **04** | Sicurezza e trasparenza — disclosure responsabile | Security & transparency — responsible disclosure |
+→ [Repository](https://github.com/arborae/ESP32-S3_CAM)
 
 ---
 
-## 👥 Chi c'è dietro · The people
+## 🧭 Principles
+
+| | |
+|:--|:--|
+| **01** | **Documentation first** — if it isn't explained well, it isn't done |
+| **02** | **Modularity &amp; maintainability** — clear architecture over quick hacks |
+| **03** | **Clear UX** — if something is confusing, it's a bug |
+| **04** | **Security &amp; transparency** — clear policies, responsible disclosure |
+
+---
+
+## 👥 Who's behind it
+
+Two friends who share a passion for well-made software.
 
 <table>
   <tr>
     <td align="center" width="120">
       <a href="https://github.com/giosci1994">
-        <img src="https://raw.githubusercontent.com/arborae/.github/main/profile/giovanni.png" width="72" alt="Giovanni"/>
+        <img src="https://github.com/giosci1994.png?size=144" width="72" alt="Giovanni"/>
       </a>
     </td>
     <td>
@@ -107,7 +91,7 @@ This README appears on https://github.com/arborae
   <tr>
     <td align="center" width="120">
       <a href="https://github.com/chopin94">
-        <img src="https://raw.githubusercontent.com/arborae/.github/main/profile/baldo.png" width="72" alt="Baldo"/>
+        <img src="https://github.com/chopin94.png?size=144" width="72" alt="Baldo"/>
       </a>
     </td>
     <td>
@@ -120,9 +104,9 @@ This README appears on https://github.com/arborae
 
 ## 🤝 Community
 
-- 💬 **Domande, idee e roadmap · Questions, ideas & roadmap** → [Discussions](https://github.com/orgs/arborae/discussions)
-- 🐛 **Bug e feature request · Bugs & feature requests** → Issues (con template guidati · guided templates)
-- 🔀 **Contributi · Contributing** → [CONTRIBUTING.md](https://github.com/arborae/.github/blob/main/CONTRIBUTING.md)
+- 💬 **Questions, ideas &amp; roadmap** → [Discussions](https://github.com/orgs/arborae/discussions)
+- 🐛 **Bugs &amp; feature requests** → Issues, with guided templates, in each repository
+- 🔀 **Contributing** → [CONTRIBUTING.md](https://github.com/arborae/.github/blob/main/CONTRIBUTING.md)
+- 🔒 **Security** → [SECURITY.md](https://github.com/arborae/.github/blob/main/SECURITY.md)
 
-> 🇮🇹 Se ti va di dare una mano: anche una piccola PR è benvenuta 🌱
-> 🇬🇧 Want to help out? Even a small PR is welcome 🌱
+> Want to help out? Even a small PR is welcome 🌱
