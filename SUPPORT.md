@@ -1,11 +1,14 @@
 # Support
 
-Per supporto generale:
-- Usa **Discussions** nell’organizzazione
-- Consulta README e docs del repository
+For general support:
 
-Per bug riproducibili:
-- Apri una **Issue** con il template
+- Use **Discussions** in the organization
+- Check the repository README and docs
 
-Per sicurezza:
-- Vedi `SECURITY.md`
+For reproducible bugs:
+
+- Open an **Issue** with the template
+
+For security:
+
+- See `SECURITY.md`
