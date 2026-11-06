@@ -1,18 +1,18 @@
 name: 🐛 Bug report
-description: Segnala un problema riproducibile
+description: Report a reproducible problem
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Grazie per la segnalazione! Compila i campi sotto: più dettagli = fix più veloce.
+        Thanks for reporting! Fill in the fields below: more details = faster fix.
 
   - type: input
     id: version
     attributes:
-      label: Versione / Commit
-      description: Indica versione, tag o SHA commit
+      label: Version / Commit
+      description: Provide a version, tag or commit SHA
       placeholder: "v0.8.1 / 256e054"
     validations:
       required: false
@@ -26,24 +26,24 @@ body:
         - Backend/API
         - Docker/Deploy
         - Docs
-        - Altro
+        - Other
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Descrizione
-      description: Cosa non funziona?
-      placeholder: "Quando faccio ..., mi aspetto ..., invece ..."
+      label: Description
+      description: What is not working?
+      placeholder: "When I do ..., I expect ..., instead ..."
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Passi per riprodurre
-      description: Elenca i passaggi in modo chiaro
+      label: Steps to reproduce
+      description: List the steps clearly
       placeholder: |
         1) ...
         2) ...
@@ -54,16 +54,16 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Risultato atteso
-      placeholder: "Dovrebbe succedere..."
+      label: Expected result
+      placeholder: "It should ..."
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Log / Screenshot
-      description: Incolla log rilevanti (rimuovi token e dati sensibili)
+      label: Logs / Screenshots
+      description: Paste relevant logs (remove tokens and sensitive data)
       render: shell
     validations:
       required: false
@@ -73,7 +73,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: Ho cercato issue simili già aperte
+        - label: I searched for similar open issues
           required: true
-        - label: Ho rimosso credenziali/token dai log
+        - label: I removed credentials/tokens from logs
           required: true
