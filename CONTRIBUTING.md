@@ -1,25 +1,30 @@
 # Contributing to Arborae
 
-Grazie per voler contribuire 🌿  
-Qui puntiamo su **chiarezza, modularità e qualità**.
+Thanks for your interest in contributing 🌱
+We care about **clarity, modularity and quality**.
 
-## Prima di iniziare
-- Usa **Discussions** per idee e domande.
-- Usa **Issues** per bug riproducibili e feature tracciabili.
+## Before you start
 
-## Workflow consigliato
-1. Fork + branch: `feat/<nome>` o `fix/<nome>`
-2. Commit chiari (es: `fix: handle empty config`)
-3. PR con descrizione + come testare
+- Use **Discussions** for ideas and questions.
+- Use **Issues** for reproducible bugs and trackable features.
 
-## Standard
-- Evita PR enormi: meglio piccole e iterative
-- Documenta le scelte non ovvie
-- Rimuovi sempre token/secret dai log
+## Recommended workflow
+
+1. Fork + branch: `feat/<name>` or `fix/<name>`
+2. Clear commits (e.g. `fix: handle empty config`)
+3. PR with a description and how to test it
+
+## Standards
+
+- Avoid huge PRs: small and iterative is better
+- Document non-obvious choices
+- Always remove tokens/secrets from logs
 
 ## Code style
-Segui gli standard del repo (formatter/linter).  
-Se non presenti, mantieni stile coerente con il codice esistente.
 
-## Sicurezza
-Vulnerabilità? Vedi `SECURITY.md`.
+Follow the repo's standards (formatter/linter).
+If none are present, keep your style consistent with the existing code.
+
+## Security
+
+Found a vulnerability? Please see `SECURITY.md` — do not report it in a public issue.
